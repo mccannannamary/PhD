@@ -1,4 +1,4 @@
-% Read data one at a time, remove baseline wander for high quality
+% Read data one file at a time, remove baseline wander for high quality
 % electrodes, ignore data from electrodes that isn't high quality.
 
 read_data_folder = './2_pipeline/f0_read_vest_data/out/';
