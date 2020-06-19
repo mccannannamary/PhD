@@ -1,17 +1,6 @@
-% Project setup
-global epoch_duration; 
-epoch_duration = 60; % seconds
-
-global fs; % sampling frequency
-fs = 1000; % Hz
-
-global nb_electrodes;
-nb_electrodes = 252;
-% End project setup
-
 read_data_folder = './0_data/external/';
 read_data_files = dir(strcat(read_data_folder,'*.dat'));
-write_data_folder = './2_pipeline/f0_read_vest_data/out/';
+write_data_folder = './2_pipeline/s1_read_vest_data/out/';
 
 nb_patients = length(read_data_files);
 for pnb = 1:nb_patients
